@@ -1,0 +1,241 @@
+      <!DOCTYPE html>
+      <html lang="en">
+     
+      
+      
+      <head>
+        <title>Premiere Auto sales By Yawar</title>
+   
+    
+    <style>
+        
+       
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #313131;
+        }
+        
+        header {
+            background-color: #313131;
+            color: white;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+         .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+        
+        .nav-links li {
+            margin-left: 1.5rem;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+        
+        section {
+            padding: 3rem 1rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+         .hero {
+            background-color: #fffffff6;
+            text-align: center;
+            padding: 4rem 1rem;
+           
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: #0e0f0f;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 1rem;
+        }
+        
+        .btn:hover {
+            background-color: #acadad;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 2rem;
+           
+            color: #000000;
+        }
+         .cars-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .car-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .car-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .car-info {
+            padding: 1rem;
+        }
+        
+        .car-price {
+            font-weight: bold;
+            color: #0066cc;
+            margin: 0.5rem 0;
+        }
+        
+        .services {
+            background-color: #f5f5f5;
+        }
+         .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+        
+        .service-item {
+            text-align: center;
+            padding: 1.5rem;
+        }
+        
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Premier Auto Sales By Yawar</div>
+            <ul class="nav-links">
+                <li><a href="home page.html">Home</a></li>
+                
+                
+                <li><a href="about page.html">About Us</a></li>
+                <li><a href="contact page.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero" id="home">
+        <h1><u>Find Your Dream Car Today</u></h1>
+        <p>Premium selection of quality vehicles at competitive prices <br><br><b><u>CEO: Yawar Bin Kashif</u></b></p>
+        <a href="#featured vehicle" class="btn">Browse Inventory</a>
+    </section>
+    
+    <section>
+        <h2 class="section-title" id="featured vehicle"><u>Featured Vehicles</u></h2>
+        <div class="cars-grid">
+            <div class="car-card">
+                <img src="https://cimg3.ibsrv.net/ibimg/hgm/1600x900-1/100/561/cadillac-escala-concept_100561247.jpg" alt="premium sedan with maximum features and super luxurious" class="car-image">
+                <div class="car-info">
+                    <h3>2023 Premium Sedan</h3>
+                    <p class="car-price">$132,999</p>
+                    <p>Fully loaded with premium features and excellent fuel efficiency.</p>
+                </div>
+            </div>
+              <div class="car-card">
+                <img src="https://www.shutterstock.com/image-photo/novosibirsk-russia-april-30-2024-600nw-2458866649.jpg" alt="Red SUV with modern styling and spacious interior for families" class="car-image">
+                <div class="car-info">
+                    <h3>2024 Family SUV</h3>
+                    <p class="car-price">$78,500</p>
+                    <p>Spacious interior with advanced safety features for your family.</p>
+                </div>
+            </div>
+            
+            <div class="car-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/McLaren_P1.jpg/500px-McLaren_P1.jpg" alt="Black sports coupe with aggressive styling and performance features" class="car-image">
+                <div class="car-info">
+                    <h3>2024 Sports Coupe</h3>
+                    <p class="car-price">$145,750</p>
+                    <p>High performance engine with premium sport package included.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+     <section class="services">
+        <h2 class="section-title"><u>Our Services</u></h2>
+        <div class="services-grid">
+            <div class="service-item">
+                <h3><u>Car Financing</u></h3>
+                <p><i>Flexible financing options to fit your budget</i></p>
+            </div>
+            <div class="service-item">
+                <h3><u>Vehicle Service</u></h3>
+                <p><i>Expert maintenance and repair services</i></p>
+            </div>
+            <div class="service-item">
+                <h3><u>Trade-Ins</u></h3>
+                <p><i>Get the best value for your current vehicle</i></p>
+            </div>
+            <div class="service-item">
+                <h3><u>Test Drives</u></h3>
+                <p><i>Experience your favorite models firsthand</i></p>
+            </div>
+        </div>
+    </section>
+     
+    
+    <footer>
+        <p>&copy; 2025 Premier Auto Sales. All rights reserved. <br>Made by yawar</p>
+    </footer>
+</body>
+</html>
+        
